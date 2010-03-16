@@ -26,7 +26,7 @@ The folder structure is:
 The bundle's `Info.plist` file should contain the following Choosy-specific keys:
 
 *  **`ChoosyDescription`** - A short description of the plugin.
-*  **`ChoosyExecutable`** - A path to the executable that carrys out the plugin's work. The path should be relative to the bundle's `Contents/Resources` directory. When the bundle is triggered the executable will be run with `Contents/Resources` as the current working directory and the URL as the first (and only) argument.
+*  **`ChoosyExecutable`** - A path to the executable that carries out the plugin's work. The path should be relative to the bundle's `Contents/Resources` directory. When the bundle is triggered the executable will be run with `Contents/Resources` as the current working directory and the URL as the first (and only) argument.
 *  **`ChoosyAboutFile`** - A path to an HTML file that contains more information about the plugin. The path should be relative to the bundle's `Contents/Resources` directory.
 
 It should also contain the usual OS X bundle keys:
