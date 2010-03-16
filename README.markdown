@@ -4,6 +4,10 @@ A future version of [Choosy](http://www.choosyosx.com) will support plugins, so 
 
 This repository contains example plugins so that other developers can feedback on the general structure of plugins while the format is still in development.
 
+## What are plugins? ##
+
+A plugin is currently just any executable file wrapped up with an icon and a name.  Plugins will be displayed in the browser prompt and when they are clicked the URL will be passed to the executable.  Simple, but effective.
+
 ## Plugin format ##
 
 The plugins are OS X bundles (essentially just folders with a particular structure) with a `.choice` extension.
